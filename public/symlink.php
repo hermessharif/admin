@@ -1,6 +1,6 @@
 <?php
-$targetFolder ='../adminPanel/storage/app/public';
+$targetFolder ='/home/hermeshu/p.hermeshub.ir/storage/app/public';
 $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage';
 symlink($targetFolder,$linkFolder);
-echo 'Symlink process successfully completed';
+echo $linkFolder;
 ?>

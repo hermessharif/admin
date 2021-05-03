@@ -35,6 +35,8 @@ Vue.component('welcome-component', require('./components/WelcomeComponent.vue').
 
 const app = new Vue({
     el: '#app',
-    vuetify : new Vuetify(),
+    vuetify : new Vuetify({
+        rtl: true,
+    }),
 
 });

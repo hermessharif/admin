@@ -74,6 +74,16 @@
   font-weight: 900;
   font-display:swap;
 }
+.m-form-input input{
+    border-radius: 50px!important;
+    text-align: center;
+}
+.m-card{
+    border-radius: 50px!important;
+    border: 0!important;
+    box-shadow: 1px #1b1e21;
+}
+
 @charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)

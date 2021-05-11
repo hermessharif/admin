@@ -3,7 +3,22 @@
     text-align: center;
 }
 .m-card{
-    border-radius: 50px!important;
+    -webkit-border-bottom-right-radius: 500px!important;
+    -webkit-border-bottom-left-radius: 500px!important;
+    -moz-border-radius-bottomright: 500px!important;
+    -moz-border-radius-bottomleft: 500px!important;
+    border-bottom-right-radius: 500px!important;
+    border-bottom-left-radius: 500px!important;
     border: 0!important;
-    box-shadow: 1px #1b1e21;
+}
+.m-card-simple{
+    /*-webkit-border-bottom-right-radius: 500px!important;*/
+    /*-webkit-border-bottom-left-radius: 500px!important;*/
+    /*-moz-border-radius-bottomright: 500px!important;*/
+    /*-moz-border-radius-bottomleft: 500px!important;*/
+    border-radius: 30px!important;
+    border: 0!important;
+}
+.m-rad{
+    border-radius: 30px!important;
 }

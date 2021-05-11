@@ -5,9 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card m-card shadow-sm">
-{{--                <div class="card-header">{{ __('123') }}</div>--}}
 
                 <div class="card-body">
+
                     <div class="text-center"><img src="/storage/logo.jpg" alt=""></div>
 
                     <form class="m-form-input" method="POST" action="{{ route('login') }}">
@@ -46,17 +46,17 @@
                             </div>
                         </div>
 
-{{--                        <div class="form-group row">--}}
-{{--                            <div class="col-md-3 offset-md-4 text-center">--}}
-{{--                                <div class="form-check text-center">--}}
-{{--                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>--}}
+                        <div class="form-group row">
+                            <div class="col-md-3 offset-md-4 text-center">
+                                <div class="form-check text-center">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-{{--                                    <label class="form-check-label" for="remember">--}}
-{{--                                        {{ __('به یاد داشته باش') }}--}}
-{{--                                    </label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                                    <label class="form-check-label" for="remember">
+                                        {{ __('به یاد داشته باش') }}
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="form-group row mb-0 mt-5">
                             <div class="col-md-12 text-center" dir="rtl">

@@ -7,10 +7,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use Kyslik\ColumnSortable\Sortable;
+
 
 class User extends Authenticatable
 {
-    use HasFactory,Notifiable,HasRoles;
+    use HasFactory,Notifiable,HasRoles,Sortable;
 
     /**
      * The attributes that are mass assignable.
@@ -22,6 +24,7 @@ class User extends Authenticatable
         'email',
         'password',
     ];
+    public $sortable = ['id', 'name',  'created_at', 'updated_at'];
 
     /**
      * The attributes that should be hidden for arrays.

@@ -26,8 +26,8 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top" dir="rtl">
-            <div class="container">
+        <nav class="position-sticky sticky-top navbar navbar-expand-md navbar-light bg-white shadow-sm" dir="rtl">
+            <div class="container-fluid">
 
                 <a data-toggle="tooltip" data-placement="bottom" title="بیمه مرکوری" class="navbar-brand" href="{{ url('/') }}">
                     <img width="60px" src="/storage/logo-single.jpg" alt="">
@@ -38,7 +38,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-<li></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

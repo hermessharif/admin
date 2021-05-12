@@ -319,9 +319,7 @@
 <script>
     export default {
         methods: {
-            changeRTL () {
-                this.$vuetify.rtl = true
-            },
+
         },
         props:['user'],
         data: () => ({
